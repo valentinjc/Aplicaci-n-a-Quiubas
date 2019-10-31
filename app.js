@@ -12,7 +12,7 @@ req.headers({
     "Content-Type": "application/json,application/json"
 });
 req.type("json");
-req.send({ to_number: "525540539827", message: "Test Api Quiubas" });
+req.send({ to_number: "522381209706", message: "Test Api Quiubas" });
 
 req.end(function(res) {
     if (res.error) throw new Error(res.error);
